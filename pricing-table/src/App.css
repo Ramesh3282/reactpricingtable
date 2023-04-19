@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: rgb(126, 126, 235);
+
+}
+
+ul {
+  list-style-type: none;
+}
+.plan{
+  
+  padding:15px;
+}
+.card{
+  width: 400px;
+  margin:  30px  auto;
+  text-align: left;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+.plan{
+  text-align: center;
+}
+
+.yes .icon:after {
+  content: '✔';
+}
+.class2  #subdomain .icon:after {
+  content: '✔ Unlimitted';
+  font-weight: bold;
+}
+.no .icon:after {
+  content: '✖';
+
+}
+#button{
+  width: 350px;
+  margin: 0 auto;
+
+  
+}
+li{
+  
+  padding:20px;
+}
+.class1 #user{
+  font-weight: bold;
+}
+.class2 #user{
+  font-weight: bold;
+}
+
+.class0 .no{
+  color: #bac4ce;
+}
+.class1 .no{
+  color: #bac4ce;
+}
+#price{
+  font-size: 30px;
+}
